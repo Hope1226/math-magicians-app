@@ -1,9 +1,9 @@
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Math Magicians
 
 > Simple app to carry out basic arithmetic operations.
-
 ![screenshot](./app_screenshot.png)
 
 Math Magicians is a SPApp for carrying out basic mathematical operations built with React.
