@@ -1,18 +1,18 @@
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> One paragraph statement about the project.
-
+> Simple app to carry out basic arithmetic operations.
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+Math Magicians is a SPApp for carrying out basic mathematical operations built with React.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML/CSS, JS
+- React
+- Gitflow
 
 ## Live Demo
 
@@ -43,17 +43,10 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Umidjon Ustabaev (Hope)**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Hope1226](https://github.com/Hope1226)
+- LinkedIn: [@UmidjonUstabaev](https://www.linkedin.com/in/umidjon-ustabaev-03b92b11a/)
 
 ## 🤝 Contributing
 
