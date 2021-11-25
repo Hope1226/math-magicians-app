@@ -11,7 +11,6 @@ class Calculator extends Component {
       total: 0,
     };
 
-    // this.handleEvent = this.handleEvent.bind(this);
     this.handleEvent = (e) => {
       this.setState((prevState) => calculate(prevState, e.target.innerText));
     };
