@@ -16,7 +16,7 @@ Math Magicians is a SPApp for carrying out basic mathematical operations built w
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://hope1226.github.io/math-magicians-app/dist)
 
 
 ## Getting Started
