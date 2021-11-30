@@ -29,5 +29,5 @@ nav ul > * {
 }
 
 nav ul > *:last-child {
-  border-right: none
+  border-right: none;
 }
