@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -33,8 +34,8 @@ function Calculator(props) {
 }
 
 Calculator.propTypes = {
-  output: PropTypes.instanceOf(Object).isRequired,
-  handleEvent: PropTypes.func.isRequired,
+  output: PropTypes.number,
+  handleEvent: PropTypes.func,
 };
 
 export default Calculator;
