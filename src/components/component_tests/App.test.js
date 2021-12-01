@@ -3,6 +3,7 @@ import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from '../../App';
+import Calculator from '../Calculator';
 
 describe('Loads the Home page', () => {
   it('and displays it correctly', () => {
@@ -22,5 +23,13 @@ describe('Loads the Home page', () => {
     userEvent.click(screen.getByText(/Quote/i));
 
     expect(screen.getByText(/- William Poul Thurston/i)).toBeInTheDocument();
+  });
+
+  it('the user clicks on the caclculator lin and it displays the calculator and user clicks on the buttons and it displays the output', () => {
+    render(<App />);
+    render(<Calculator />);
+    userEvent.click(screen.getByText(/1/i));
+
+    expect(screen.getByText(/1/i)).toBeInTheDocument();
   });
 });
