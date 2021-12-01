@@ -1,7 +1,11 @@
 import './App.css';
 import React, { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import calculate from './logic/calculate';
+import Home from './components/Home';
+import Quote from './components/Quote';
+import Nav from './components/Nav';
 
 function App() {
   const [state, setState] = useState({
@@ -19,9 +23,16 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <Calculator output={output} handleEvent={handleEvent} />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator output={output} handleEvent={handleEvent} />} />
+          <Route path="/quote" element={<Quote />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
